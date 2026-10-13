@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+#root {
+  font-family: "Inter" , sans-serif;
+  font-optical-sizing: auto;
+  font-size: normal;
+}
+
+@theme {
+  --color-scene-black: #271303;
+  --color-Wester: rgb(230, 226, 221);
+}
+
+body{
+  background-color: rgb(230, 226, 221);
+}
+
