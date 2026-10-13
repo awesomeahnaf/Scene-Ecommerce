@@ -17,7 +17,7 @@ const FeaturedCollection = () => {
                     <p className='text-lg text-amber-100 mb-6'>
                         Redefine your everyday look with versatile essentials, effortless fits, and a style that speaks for itself.
                     </p>
-                    <Link to="/collections/all" className='bg-black text-white px-6 py-3 rounded-lg text-lg hover:bg-amber-950'>
+                    <Link to="/collections/all" className='bg-amber-950 text-white px-6 py-3 rounded-lg text-lg hover:bg-black'>
                         Shop now
                     </Link>
                 </div>
