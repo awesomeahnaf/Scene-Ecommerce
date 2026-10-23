@@ -22,9 +22,9 @@ const checkout = {
         },
     ],
     shippingAddress: {
-        address: "123 dhaka street",
+        address: "123 dhaka Road",
         city: "Dhaka",
-        country: "USA",
+        country: "Bangladesh",
     },
 };
 
@@ -79,6 +79,19 @@ const calculateEstimatedDelivery = (createdAt)  => {
                     ))}
                 </div>
                 {/* Payment and Delivery Info */}
+                <div className="grid grid-cols-2 gap-8">
+                    {/* Payment Info */}
+                    <div>
+                        <h4 className="text-lg font-semibold mb-2">Payment</h4>
+                        <p className="text-amber-700">sslcommerz</p>
+                    </div>
+                    {/* Delivery Info */}
+                    <div>
+                        <h4 className="text-lg font-semibold mb-2">Delivery</h4>
+                        <p className="text-amber-700">{checkout.shippingAddress.address}</p>
+                        <p className="text-amber-700">{checkout.shippingAddress.city} , {" "} {checkout.shippingAddress.country}</p>
+                    </div>
+                </div>
             </div>
         )}
 
